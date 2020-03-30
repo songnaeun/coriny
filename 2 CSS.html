@@ -20,9 +20,20 @@
   <h2 style="margin-bottom:20px;">CSS</h2>
 Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language. Although most often used to set the visual style of web pages and user interfaces written in HTML and XHTML, the language can be applied to any XML document, including plain XML, SVG and XUL, and is applicable to rendering in speech, or on other media. Along with HTML and JavaScript, CSS is a cornerstone technology used by most websites to create visually engaging webpages, user interfaces for web applications, and user interfaces for many mobile applications.
   <h2 style="margin-bottom:45px;">LESSON 2. CSS </h2>
-  <h3>Style</h3>
-  style은 CSS 기능을 HTML에서 쓰기 위한 태그. a {colre:red;} 라고 쓰면, a (링크) 태그에 전부 기능 추가 가능 <br>
-  HTML 태그 내에 style="color:red"를 추가하면 그 부분에만 적용 가능<br>
-  ; 은 여러 효과를 주고 싶을 때 사용.
+  <h3>2-1 Style</h3>
+  "style"은 CSS 기능을 HTML에서 쓰기 위한 태그. a {color:red;} 라고 쓰면, a (링크) 태그에 전부 기능 추가 가능 <br>
+  HTML 태그 내에 style="color:red"를 추가하면 그 부분에만 적용 가능하며 ;을 통해 여러 효과를 동시에 주고 구분한다.<br>
+  포괄적인 것보다 구체적인 것이 우선순위로 작용한다. 
+  <h3>2-2 선택자</h3>
+  ".class" .intro 입력 시 class="intro" 를 포함한 태그를 선택한다.<br>
+  "#id" #firstname 입력 시 id="firstname" 를 포함한 태그를 선택한다. id 선택자는 중복 사용불가.<br>
+  <b>우선순위: #id > .class > 태그, 모두 같은 선택자라면 가장 나중에 등장하는 것이 우선순위가 높다.</b><br>
+  <h3>2-3 Box model</h3>
+  "content" width, height 지정 가능.
+  "border" 테두리 -width, color, style 등 입력하여 box 설정이 가능하다. border: 5px solid red 한 번에 입력 가능.<br>
+  "padding" 테두리와 컨텐츠 간의 여백
+  "margin" 박스간의 상하좌우 여백. 인접한 박스 간 값이 더 큰 폭의 여백이 적용됨.<br>
+  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.zerocho.com%2Fcategory%2FCSS%2Fpost%2F582ddf81d4416a001860e75d&psig=AOvVaw3-9pGKi485uqKfUVZQVLh7&ust=1585645778217000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCICJ7v3swegCFQAAAAAdAAAAABAD"><br>
+  <a href="box model.html" title="box model">Box model</a>
 </body>
 </html>
