@@ -1,2 +1,2 @@
-# HTML 기초 학습을 끝냈당!
-web2는 css / JS
+# Web 2 CSS
+grid까지 혼자만들어보깅
